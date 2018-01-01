@@ -29,3 +29,12 @@ view_y = random_range(o_player.y - view_h/2,o_player.y - view_h/2 + 2);
 view_x = clamp(view_x,0,room_width-view_w);
 view_y = clamp(view_y,0,room_height-view_h);
 } else if shaker <=0{ screen_shake = false; shaker = 20;} 
+
+
+// this is where we do the parralax.
+if layer_exists("Parralax1"){
+	layer_x("Parralax1", view_x/2);	
+}
+if layer_exists("Parralax2"){
+	layer_x("Parralax2", view_x/4);	
+}

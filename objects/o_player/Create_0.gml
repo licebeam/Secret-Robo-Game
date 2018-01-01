@@ -25,8 +25,14 @@ neutral = 0;
 falling = 1;
 jumping = 2;
 shooting = 4;
+usesub = 5;
+gethit = 6;
 state = neutral;
+
+//checking the player is invincible
 hit = false;
+flash = false;
+vis_timer = 4;
 
 //megaman x speeds
 m_speed = 3;// horizontal p/f
@@ -39,3 +45,7 @@ shoot_anim = false;
 jump_anim = false;
 fall_anim = false;
 walk_anim = false;
+hit_anim = false; //when i get hit
+
+//character stats
+player_hp = clamp(12,0,12);

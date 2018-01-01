@@ -48,6 +48,9 @@ if place_meeting(x + h_speed, y, o_walls) {
 
 self.x = self.x + h_speed
 
+//am I invincible? 
+if (hit == true and vis_timer >= 1) {visible = false; vis_timer--} else { visible = true; vis_timer = 4;}
+
 //animate my shit
 if (fall_anim == true) {
 	if(!(image_index <= 5 and image_index >= 4)) {

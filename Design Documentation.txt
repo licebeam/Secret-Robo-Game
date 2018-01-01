@@ -1,0 +1,63 @@
+Design Documentation For Secret-Robo-Game
+
+
+Implemented. 
+Player movement.
+Shooting.
+Destructable Objects.
+Health.
+Getting Hit and character blinking.
+Basic GUI elements.
+Fading screen. 
+Screen Shake.
+Parrlax BGs
+Healing Items.
+Pausing
+Freeze Frames/ only on hp pickup so far
+
+
+Implemented ASAP-
+Water with animation and splash effects
+Foreground Objects for visuals
+Basic enemy. 
+Better Tiles and Sprites
+Exp or some kind of currency for upgrades on the fly.
+Stage Hazard like spikes.
+Moving Platform.
+Simple pick from 3 upgrade system. 
+Subweapon 1
+Shot Charge upgrade
+Dash upgrade
+Blocks that dissapear from under the player after a short time.
+ 
+Subweapon/GUI/energy item.
+
+Things I'd like to implement eventually
+Menu/ Start Screen/ 
+More tiles, sprites animations.
+Wall Jump upgrade
+Double Jump upgrade
+Doors like megaman? 
+Boss fight.
+Some kind of system for switches. 
+Perhaps shaders and lighting? 
+
+
+Inspirations.
+Megaman first and foremost.
+Speed running. 
+Metroid. 
+Metal Warriors
+contra.
+Nuclear Throne
+Castle Vania
+
+
+Spec info;
+All Sprites for characters are 32x32 px
+all tiles are 32x32 split into 16x16 squares
+all drop items are 16x16 
+effects differ from 32x32 and 16px
+Pallet is NES colors so far with modifications. 
+the game is widescreen 16:9 with scalable pixel perfect graphics.
+

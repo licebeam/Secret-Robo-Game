@@ -7,11 +7,11 @@ if !place_meeting(x, y + 1, o_walls) { // o_walls is also the floor for all case
 }
 
 //check for shooting
-if keyboard_check_pressed(shoot_key){
+if keyboard_check_pressed(shoot_key) {
  state = shooting;	
 }
 if keyboard_check_pressed(down_key){
-	//ducking change sprite / look? 	
+
 }
 
 //left right movement
@@ -55,6 +55,8 @@ self.y += v_speed;
 
 
 
+//am I invincible? 
+if (hit == true and vis_timer >= 1) {visible = false; vis_timer--} else { visible = true; vis_timer = 4;}
 
 // animate my shit
 if (stand_anim == true) { // This is the standing animation
