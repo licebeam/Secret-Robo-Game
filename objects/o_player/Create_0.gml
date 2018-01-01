@@ -9,7 +9,7 @@ h_speed = 6;
 v_speed = 4;
 jump_height = clamp(-1,0,-7);
 jump_frames = 10;
-jump_time = jump_frames; // frames
+jump_time = jump_frames; // length of jump in frames/60
 momentum_h = 0; 
 
 
@@ -35,10 +35,7 @@ m_speed = 3;// horizontal p/f
 
 //animation variable // what animation is true currently.
 stand_anim = false;
-stand_start = 0;
 shoot_anim = false;
 jump_anim = false;
 fall_anim = false;
 walk_anim = false;
-anim_timer = 0;
-frame_counter = 15;//how fast the game animates.

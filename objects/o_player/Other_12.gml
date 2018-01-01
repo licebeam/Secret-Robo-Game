@@ -44,7 +44,7 @@ self.x = self.x + h_speed
 
 //animate my shit
 if (jump_anim == true) {
-	if(image_index > 4 and image_index < 3) {
+	if(!(image_index <= 4 and image_index >= 3)) {
       image_index = 3;
 	}
 	image_speed = .25;
